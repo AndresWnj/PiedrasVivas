@@ -1,0 +1,109 @@
+{
+  "configVersion": 1,
+  "timestamp": 1661208171749,
+  "index": "https://andreswnj.github.io/PiedrasVivas/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://andreswnj.github.io/PiedrasVivas/favicon.ico",
+        "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js",
+        "https://andreswnj.github.io/PiedrasVivas/index.html",
+        "https://andreswnj.github.io/PiedrasVivas/main.3c49107637a06fdf.js",
+        "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest",
+        "https://andreswnj.github.io/PiedrasVivas/polyfills.1628b2a348bfdd17.js",
+        "https://andreswnj.github.io/PiedrasVivas/runtime.fe5b60953845266c.js",
+        "https://andreswnj.github.io/PiedrasVivas/scripts.3f848548e87e795f.js",
+        "https://andreswnj.github.io/PiedrasVivas/styles.f4fb4e95192ab772.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://andreswnj.github.io/PiedrasVivas/assets/font/font_bold.ttf",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-128x128.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-144x144.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-152x152.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-192x192.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-384x384.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-512x512.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-72x72.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-96x96.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/i1_landscape.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/i2_landscape.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/i3_landscape.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/i4_landscape.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/i5_landscape.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/ic_app.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/img/ic_water_mark.png",
+        "https://andreswnj.github.io/PiedrasVivas/assets/js/firebase.js",
+        "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.min.js",
+        "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.textfill.min.js",
+        "https://andreswnj.github.io/PiedrasVivas/assets/js/main.js"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://andreswnj.github.io/PiedrasVivas/assets/font/font_bold.ttf": "eba085cb0997e4a07420fedba782f92ae95e8062",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://andreswnj.github.io/PiedrasVivas/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/i1_landscape.png": "4aea8a772be8d375c8d667bcd24f04320c7f822f",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/i2_landscape.png": "3d6b2cbd7df93f570e431e855d1dedd735dbd652",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/i3_landscape.png": "1bbaa9191b1099736c325288190d588fa611268d",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/i4_landscape.png": "ddfcd5e74868edf646f5ad78dbd0239efe08e6b4",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/i5_landscape.png": "eb7b6fb2433a3e0a4aa58f73e91619f53d5589d9",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/ic_app.png": "7435148f88845d59e272d20994c9336aa3b0c646",
+    "https://andreswnj.github.io/PiedrasVivas/assets/img/ic_water_mark.png": "e95d14223edaa1a65f24a73396ea84120fdc1127",
+    "https://andreswnj.github.io/PiedrasVivas/assets/js/firebase.js": "108e2130286c72cf9cc34a17ba9c3ef4eac8af87",
+    "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.min.js": "b82d238d4e31fdf618bae8ac11a6c812c03dd0d4",
+    "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.textfill.min.js": "756e1eb915ddba691b1a7c5f9c8916b485f989c0",
+    "https://andreswnj.github.io/PiedrasVivas/assets/js/main.js": "50282319a0a257d842843c1a5e00307b22763556",
+    "https://andreswnj.github.io/PiedrasVivas/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js": "f09b75b32aebe08eaff73e279b3889b8d46a8191",
+    "https://andreswnj.github.io/PiedrasVivas/index.html": "e5a6cc849f004f7a7d7fd47401ce9ddca6a2c90c",
+    "https://andreswnj.github.io/PiedrasVivas/main.3c49107637a06fdf.js": "96085aea58e2b1679cc5b69b481492a4a3d8af66",
+    "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest": "2cdf2ce0d10a392f24a220566a86024a9bb749da",
+    "https://andreswnj.github.io/PiedrasVivas/polyfills.1628b2a348bfdd17.js": "2ea1cd0eee5fef3414ed29860e82427970670e7a",
+    "https://andreswnj.github.io/PiedrasVivas/runtime.fe5b60953845266c.js": "ce053739c8d3b8c912e16b6d16d335b6034528a6",
+    "https://andreswnj.github.io/PiedrasVivas/scripts.3f848548e87e795f.js": "b717a58f7c0088e4bf4b2fddf8b34a5ef09a783d",
+    "https://andreswnj.github.io/PiedrasVivas/styles.f4fb4e95192ab772.css": "3dfabeb6d057ba7e3df3b284e9408e57838285f9"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
