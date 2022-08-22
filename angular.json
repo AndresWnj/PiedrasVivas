@@ -21,7 +21,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/img/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)",
+              "src/assets/images/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)",
               "src/firebase-messaging-sw.js",
               "src/manifest.webmanifest"
             ],
@@ -95,7 +95,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/img/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)",
+              "src/assets/images/*.(svg|cur|jpg|jpeg|png|apng|webp|avif|gif|otf|ttf|woff|woff2)",
               "src/firebase-messaging-sw.js",
               "src/manifest.webmanifest"
             ],

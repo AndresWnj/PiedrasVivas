@@ -31,7 +31,7 @@ messaging.setBackgroundMessageHandler(function (payload) {
 
         var notificationOptions = {
             body: payload.data.Descripcion,
-            icon: '/Recursos/img/flash.png',
+            icon: '/Recursos/images/flash.png',
             data: { url: payload.data.Url2, id: payload.data.ItemId },
             actions: [{ action: "open_url", title: "Abrir Centro Control" }]
         };
