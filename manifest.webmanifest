@@ -54,6 +54,11 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
+    },
+    {
+      "src": "assets/images/i1_landscape.png",
+      "type": "image/png",
+      "purpose": "maskable any"
     }
   ]
 }
