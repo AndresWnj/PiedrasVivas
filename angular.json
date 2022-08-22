@@ -28,7 +28,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/firebase-messaging-sw.js"
+              
             ],
             "serviceWorker": true,
             "ngswConfigPath": "ngsw-config.json"
@@ -101,7 +101,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "src/firebase-messaging-sw.js"
+              
             ]
           }
         },
