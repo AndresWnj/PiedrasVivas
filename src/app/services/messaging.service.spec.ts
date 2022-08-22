@@ -1,5 +1,5 @@
 import { TestBed } from '@angular/core/testing';
-import { AngularFireMessaging } from '@angular/fire/messaging';
+
 import { MessagingService } from './messaging.service';
 
 describe('MessagingService', () => {

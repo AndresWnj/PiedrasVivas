@@ -7,8 +7,11 @@ import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { StreamingComponent } from './streaming/streaming.component';
+import { MessagingService } from './services/messaging.service';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+
+import { AsyncPipe } from '../../node_modules/@angular/common';
 
 @NgModule({
   declarations: [
@@ -26,7 +29,7 @@ import { environment } from '../environments/environment';
       registrationStrategy: 'registerWhenStable:30000'
     })
   ],
-  providers: [],
+  providers: [MessagingService,AsyncPipe],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
