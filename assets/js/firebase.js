@@ -48,7 +48,7 @@ messaging.onMessage(function (payload) {
 
     /*var notificationOptions = {
         body: payload.data.Descripcion,
-        icon: '/assets/img/ic_app.png',
+        icon: '/assets/images/ic_app.png',
         data: { url: payload.data.Url2, id: payload.data.ItemId },
         actions: [{ action: "open_url", title: "Nueva actualización" }]
     };
