@@ -11,7 +11,7 @@ export class StreamingComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.imagen = "../assets/images/i"+this.getRandomInt(1, 5)+"_landscape.png";
+    this.imagen = "./app/../assets//images/i"+this.getRandomInt(1, 5)+"_landscape.png";
   }
 
   getRandomInt(min:number, max:number):number {
