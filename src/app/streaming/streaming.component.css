@@ -6,7 +6,7 @@ html, body {
 
 @font-face {
   font-family: font_bold;
-  src: URL('../assets/font/font_bold.ttf') format('truetype');
+  src: URL('./app/../assets/font/font_bold.ttf') format('truetype');
 }
 
 .mainContainer{
@@ -61,5 +61,3 @@ p {
     font-family: font_bold;
     text-shadow: 0px 2px 4px #000;
 }
-
-:host { display: block; min-height: 500px; background: url('^assets/images/about-us.png') no-repeat center; }
