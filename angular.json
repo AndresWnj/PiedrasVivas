@@ -21,7 +21,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/images/i1_landscape.png",
+              "src/assets/images",
               "src/firebase-messaging-sw.js",
               "src/manifest.webmanifest"
             ],
@@ -95,7 +95,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/assets/images/i1_landscape.png",
+              "src/assets/images",
               "src/firebase-messaging-sw.js",
               "src/manifest.webmanifest"
             ],
