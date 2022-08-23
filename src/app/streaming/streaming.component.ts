@@ -7,9 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StreamingComponent implements OnInit {
 
+  imagen="";
   constructor() { }
 
   ngOnInit(): void {
+    this.imagen = "../assets/images/i"+this.getRandomInt(1, 5)+"_landscape.png";
+  }
+
+  getRandomInt(min:number, max:number):number {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
 
 }
