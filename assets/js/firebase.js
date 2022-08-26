@@ -23,7 +23,7 @@ if('serviceWorker' in navigator) {
     //console.log("Service Worker Registered");
     messaging.useServiceWorker(registration);//comente  
     console.log('Registration successful, scope is:', registration.scope);
-    /*if(ActualToken===""){
+        if(ActualToken===""){
             messaging.getToken()
             .then(function (newtoken) {
                 saveTokenF(newtoken);
@@ -31,7 +31,7 @@ if('serviceWorker' in navigator) {
             .catch(function (reason) {
                 console.log(reason);
             });
-        }*/
+        }
     }); 
 }
 
