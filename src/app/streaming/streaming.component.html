@@ -4,11 +4,15 @@
     <img class="back" [src]="imagen" alt="">
 </div>
 
-<div class="containerPasaje">
+<div *ngIf="message;" class="containerPasaje">
   <div class="txtDescripcion">
-    <span>Porque de tal manera amó Dios al mundo que ha dado a su Hijo Unigénito</span>
+    <span>{{ message.notification.body }}</span>
   </div>
-  <div class="txtPasaje"><span>Juan 3:16 (NTV)</span></div>
+  <div class="txtPasaje"><span>{{ message.notification.title }}</span></div>
+</div>
+
+<div *ngIf="!message;" class="containerPasaje">
+  Sin mensajes
 </div>
 
 

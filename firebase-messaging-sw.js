@@ -1,20 +1,22 @@
-importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js");
-importScripts("https://www.gstatic.com/firebasejs/8.10.0/firebase-messaging.js");
+importScripts("https://www.gstatic.com/firebasejs/9.1.3/firebase-app-compat.js");
+importScripts("https://www.gstatic.com/firebasejs/9.1.3/firebase-messaging-compat.js");
 
-var firebaseConfig = {
-    apiKey: "AIzaSyAVcZ7eO70_cCNjFP7_AlrUy3drxy7ogQI",
-    authDomain: "amdomicilios-c3c0f.firebaseapp.com",
-    databaseURL: "https://amdomicilios-c3c0f.firebaseio.com",
-    projectId: "amdomicilios-c3c0f",
-    storageBucket: "amdomicilios-c3c0f.appspot.com",
-    messagingSenderId: "658284013800",
-    appId: "1:658284013800:web:89cea3033e402740a3415d",
-    measurementId: "G-KLJ5E4N6WH"
-};
+//importScripts('https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js');
+//importScripts('https://www.gstatic.com/firebasejs/7.14.6/firebase-messaging.js');
 
-firebase.initializeApp(firebaseConfig);
+
+firebase.initializeApp({
+    apiKey: "AIzaSyDMMfK233HBhDFs_kjGqSGx_Bag2q0yUow",
+    authDomain: "casadelrey-e6cf6.firebaseapp.com",
+    databaseURL: "https://casadelrey-e6cf6.firebaseio.com",
+    projectId: "casadelrey-e6cf6",
+    storageBucket: "casadelrey-e6cf6.appspot.com",
+    messagingSenderId: "966101535658",
+    appId: "1:966101535658:web:395eecdcbcaa8f8396f9d3",
+    measurementId: "G-L0153YQVH8"
+  });
 const messaging = firebase.messaging();
-
+/* 
 messaging.setBackgroundMessageHandler(function (payload) {
     console.log(payload);
 
@@ -83,3 +85,4 @@ self.addEventListener('notificationclick', function (event) {
     }
 }
     , false);
+ */
