@@ -12,8 +12,8 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
 
-import { initializeApp } from "firebase/app";
-initializeApp(environment.firebase);
+//import { initializeApp } from "firebase/app";//comente
+//initializeApp(environment.firebase);//comente
 
 import { AsyncPipe } from '../../node_modules/@angular/common';
 
@@ -26,10 +26,10 @@ import { AsyncPipe } from '../../node_modules/@angular/common';
     BrowserModule,
     RouterModule,
     RouteModule,
-    ServiceWorkerModule.register('firebase-messaging-sw.js', {
+    /*ServiceWorkerModule.register('firebase-messaging-sw.js', {
       enabled: environment.production,
       registrationStrategy: 'registerWhenStable:5000'
-    }),
+    }),*/
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
