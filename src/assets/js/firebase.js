@@ -12,16 +12,26 @@
 firebase.initializeApp(firebaseConfig);
 const messaging = firebase.messaging();
 
+var ActualToken="";
 
 if('serviceWorker' in navigator) { 
     navigator.serviceWorker.register('./app/../firebase-messaging-sw.js')
     .then(function(registration) {
     console.log("Service Worker Registered");
     messaging.useServiceWorker(registration);  
+
+    messaging.getToken()
+        .then(function (newtoken) {
+            saveTokenF(newtoken);
+        })
+        .catch(function (reason) {
+            console.log(reason);
+        });
+
     }); 
 }
 
-var ActualToken="";
+
 
 function IntitalizeFireBaseMessaging() {
     messaging

@@ -17,8 +17,8 @@ export class StreamingComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {
     this.imagen = "./app/../assets/images/i"+this.getRandomInt(1, 5)+"_landscape.png";
-    //this.requestPermission();
-    //this.listen();
+    this.requestPermission();
+    this.listen();
   }
   requestPermission() {
     const messaging = getMessaging();
