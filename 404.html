@@ -23,7 +23,17 @@
 
   <script src="./app/../assets/js/main.js"></script>
 
+  <script>
+    if('serviceWorker' in navigator) { 
+    navigator.serviceWorker.register('./app/../firebase-messaging-sw.js')
+    .then(function(registration) {
+    console.log("REGISTRADO!!!");
+    messaging.useServiceWorker(registration);  
+    }); 
+}
+  </script>
+
   <noscript>Please enable JavaScript to continue using this application.</noscript>
-<script src="runtime.e061def2e3e5528c.js" type="module"></script><script src="polyfills.18721efda988d6c8.js" type="module"></script><script src="main.0b4ebb51b60fa995.js" type="module"></script>
+<script src="runtime.e061def2e3e5528c.js" type="module"></script><script src="polyfills.18721efda988d6c8.js" type="module"></script><script src="main.b695d776a37674d6.js" type="module"></script>
 
 </body></html>
