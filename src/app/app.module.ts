@@ -11,9 +11,9 @@ import { MessagingService } from './services/messaging.service';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
+
 import { initializeApp } from "firebase/app";
 initializeApp(environment.firebase);
-
 
 import { AsyncPipe } from '../../node_modules/@angular/common';
 
