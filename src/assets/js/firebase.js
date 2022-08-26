@@ -96,6 +96,12 @@ function saveTokenF(token) {
 
     ActualToken=token;
 
+    setTimeout(function() {
+        jQuery('.qrcodeCanvas').qrcode({
+            text	: ActualToken
+        });	
+       }, 3000);
+
     /*var url_ = "/CentroControl/SaveTokenFirebase?Token=" + token;
     $.ajax({
         type: 'GET',
