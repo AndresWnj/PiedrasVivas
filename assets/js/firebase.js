@@ -15,12 +15,11 @@ const messaging = firebase.messaging();
 var ActualToken="";
 
 if('serviceWorker' in navigator) { 
-
     navigator.serviceWorker.register('./app/../firebase-messaging-sw.js')
     .then(function(registration) {
-        console.log('Registration successful, scope is:', registration.scope);
     //console.log("Service Worker Registered");
-    //messaging.useServiceWorker(registration);//comente  
+    messaging.useServiceWorker(registration);//comente  
+    console.log('Registration successful, scope is:', registration.scope);
         if(ActualToken===""){
             messaging.getToken()
             .then(function (newtoken) {
