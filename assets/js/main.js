@@ -1,5 +1,10 @@
 window.onresize = function() {
     updateSize();
+    /*if(!isNotFullScreen()){
+        $(".btnFullScreen").hide();
+    }else{
+        $(".btnFullScreen").show();
+    }*/
 }
 
 var update=true;
@@ -7,6 +12,29 @@ var update=true;
 $("body").on('DOMSubtreeModified', ".txtDescripcion", function() {
     updateSize();
 });
+
+$("body").on('click', ".btnFullScreen", function() {
+    $(".btnFullScreen").hide();
+    toggleFullScreenMode();
+});
+
+function toggleFullScreenMode() {
+    var doc = window.document;
+    var docEl = doc.documentElement;
+  
+    var requestFullScreen = docEl['requestFullscreen'] || docEl['mozRequestFullScreen'] || docEl['webkitRequestFullScreen'] || docEl['msRequestFullscreen'];
+    var cancelFullScreen = doc['exitFullscreen'] || doc['mozCancelFullScreen'] || doc['webkitExitFullscreen'] || doc['msExitFullscreen'];
+  
+    if(!doc['fullscreenElement'] && !doc['mozFullScreenElement'] && !doc['webkitFullscreenElement'] && !doc['msFullscreenElement']) {
+      requestFullScreen.call(docEl);
+    } else {
+      cancelFullScreen.call(doc);
+    }
+}
+
+function isNotFullScreen(){
+    return !doc['fullscreenElement'] && !doc['mozFullScreenElement'] && !doc['webkitFullscreenElement'] && !doc['msFullscreenElement'];
+}
 
 function updateSize(){
     if(update){
@@ -43,3 +71,4 @@ listener.onmessage = function (e) {
     $(".txtDescripcion").html("<span>"+e.data.notification.body+"</span>");
     $(".back").attr("src","./app/../assets/images/i"+getRandomInt(1, 5)+"_landscape.png");
 };
+
