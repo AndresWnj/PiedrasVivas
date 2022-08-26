@@ -100,7 +100,7 @@ function saveTokenF(token) {
         jQuery('.qrcodeCanvas').qrcode({
             text	: ActualToken
         });	
-       }, 3000);
+       }, 1000);
 
     /*var url_ = "/CentroControl/SaveTokenFirebase?Token=" + token;
     $.ajax({
