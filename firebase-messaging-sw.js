@@ -17,7 +17,7 @@ firebase.initializeApp({
     measurementId: "G-L0153YQVH8"
   });
 const messaging = firebase.messaging();
-/* 
+
 messaging.setBackgroundMessageHandler(function (payload) {
     console.log(payload);
 
@@ -86,4 +86,3 @@ self.addEventListener('notificationclick', function (event) {
     }
 }
     , false);
- */
