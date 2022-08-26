@@ -1,4 +1,4 @@
-﻿const firebaseConfig = {
+﻿var firebaseConfig = {
     apiKey: "AIzaSyDMMfK233HBhDFs_kjGqSGx_Bag2q0yUow",
     authDomain: "casadelrey-e6cf6.firebaseapp.com",
     databaseURL: "https://casadelrey-e6cf6.firebaseio.com",
