@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661525726928,
+  "timestamp": 1661526089407,
   "index": "https://andreswnj.github.io/PiedrasVivas/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "https://andreswnj.github.io/PiedrasVivas/favicon.ico",
         "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js",
         "https://andreswnj.github.io/PiedrasVivas/index.html",
-        "https://andreswnj.github.io/PiedrasVivas/main.3ae94ddecad877da.js",
+        "https://andreswnj.github.io/PiedrasVivas/main.b353af9de4ae6409.js",
         "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest",
         "https://andreswnj.github.io/PiedrasVivas/polyfills.18721efda988d6c8.js",
         "https://andreswnj.github.io/PiedrasVivas/runtime.e061def2e3e5528c.js",
@@ -82,8 +82,8 @@
     "https://andreswnj.github.io/PiedrasVivas/assets/js/main.js": "50282319a0a257d842843c1a5e00307b22763556",
     "https://andreswnj.github.io/PiedrasVivas/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js": "7949031759b292201ee92b86cef852d9fa64be4f",
-    "https://andreswnj.github.io/PiedrasVivas/index.html": "8b4ab5fc0e5538596a41a6f4024060df9aaafe68",
-    "https://andreswnj.github.io/PiedrasVivas/main.3ae94ddecad877da.js": "9615c073fb031958a61f527682a277b778dbcf71",
+    "https://andreswnj.github.io/PiedrasVivas/index.html": "038401b1e03f17e74ee398e2f3efe5868a4941fb",
+    "https://andreswnj.github.io/PiedrasVivas/main.b353af9de4ae6409.js": "7315343865ea51103a755552c798900f44ec7744",
     "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest": "5fc7ac23f5d634a30a1472cfb302a713f5b367bc",
     "https://andreswnj.github.io/PiedrasVivas/polyfills.18721efda988d6c8.js": "76e0163f98a6a38c8df162e158c7e711d62b4cff",
     "https://andreswnj.github.io/PiedrasVivas/runtime.e061def2e3e5528c.js": "862dc2893e79041a9a92354d8aad1720d4358e5d",
