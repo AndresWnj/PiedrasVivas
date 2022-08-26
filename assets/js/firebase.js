@@ -15,7 +15,10 @@ const messaging = firebase.messaging();
 var ActualToken="";
 
 if('serviceWorker' in navigator) { 
-    navigator.serviceWorker.register('./app/../firebase-messaging-sw.js')
+
+    //navigator.serviceWorker.register("firebase-messaging-sw.js",{scope:"firebase-cloud-messaging-push-scope"})
+
+    navigator.serviceWorker.register('./app/../firebase-messaging-sw.js', {scope:"firebase-cloud-messaging-push-scope"})
     .then(function(registration) {
     //console.log("Service Worker Registered");
     messaging.useServiceWorker(registration);//comente  
