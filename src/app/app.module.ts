@@ -26,7 +26,10 @@ import { AsyncPipe } from '../../node_modules/@angular/common';
     BrowserModule,
     RouterModule,
     RouteModule,
-    ServiceWorkerModule.register('firebase-messaging-sw.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('firebase-messaging-sw.js', {
+      enabled: environment.production,
+      registrationStrategy: 'registerWhenStable:5000'
+    }),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
