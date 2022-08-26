@@ -22,9 +22,12 @@ export class StreamingComponent implements OnInit {
   }
   requestPermission() {
     const messaging = getMessaging();
+    console.log("GET TOKEN....");
     getToken(messaging, 
      { vapidKey: environment.firebase.vapidKey}).then(
        (currentToken) => {
+
+        console.log("CUAL TOKEN -> "+currentToken);
          if (currentToken) {
            console.log("Hurraaa!!! we got the token.....");
            console.log(currentToken);
