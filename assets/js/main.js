@@ -23,9 +23,9 @@ function updateSize(){
 }
 
 $(document).ready(function() {
-    setTimeout(function() {
+    /*setTimeout(function() {
         updateSize();
-       }, 100);
+       }, 100);*/
 });
 
 var listener = new BroadcastChannel('listener');
