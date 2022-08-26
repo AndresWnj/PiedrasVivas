@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1661531023948,
+  "timestamp": 1661532311505,
   "index": "https://andreswnj.github.io/PiedrasVivas/index.html",
   "assetGroups": [
     {
@@ -15,7 +15,7 @@
         "https://andreswnj.github.io/PiedrasVivas/favicon.ico",
         "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js",
         "https://andreswnj.github.io/PiedrasVivas/index.html",
-        "https://andreswnj.github.io/PiedrasVivas/main.87b08df92fc843c4.js",
+        "https://andreswnj.github.io/PiedrasVivas/main.844583e2430ef0a8.js",
         "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest",
         "https://andreswnj.github.io/PiedrasVivas/polyfills.18721efda988d6c8.js",
         "https://andreswnj.github.io/PiedrasVivas/runtime.aaecc82a20da9c11.js",
@@ -79,11 +79,11 @@
     "https://andreswnj.github.io/PiedrasVivas/assets/js/firebase.js": "a25a2fe42991b0eca198d19f3637252d600f63ec",
     "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.min.js": "b82d238d4e31fdf618bae8ac11a6c812c03dd0d4",
     "https://andreswnj.github.io/PiedrasVivas/assets/js/jquery.textfill.min.js": "756e1eb915ddba691b1a7c5f9c8916b485f989c0",
-    "https://andreswnj.github.io/PiedrasVivas/assets/js/main.js": "50282319a0a257d842843c1a5e00307b22763556",
+    "https://andreswnj.github.io/PiedrasVivas/assets/js/main.js": "299046dbefb823a542e82afbec56c5a1ac0634ab",
     "https://andreswnj.github.io/PiedrasVivas/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
     "https://andreswnj.github.io/PiedrasVivas/firebase-messaging-sw.js": "ded38a2ecc789c29c07ab7f47c78ef7baf877d35",
-    "https://andreswnj.github.io/PiedrasVivas/index.html": "3ac87d6895b9b25631a1d8d8f830b33d36743bff",
-    "https://andreswnj.github.io/PiedrasVivas/main.87b08df92fc843c4.js": "a421a76b1eb4971ef7792a4e40d6653304fca79b",
+    "https://andreswnj.github.io/PiedrasVivas/index.html": "e799d041d84209dde3326022d4dea3ef828ccf11",
+    "https://andreswnj.github.io/PiedrasVivas/main.844583e2430ef0a8.js": "5cb3a778828063a6b77975078e4788715620105e",
     "https://andreswnj.github.io/PiedrasVivas/manifest.webmanifest": "5fc7ac23f5d634a30a1472cfb302a713f5b367bc",
     "https://andreswnj.github.io/PiedrasVivas/polyfills.18721efda988d6c8.js": "76e0163f98a6a38c8df162e158c7e711d62b4cff",
     "https://andreswnj.github.io/PiedrasVivas/runtime.aaecc82a20da9c11.js": "6396b4f7bbc2d28c5b007bb6181376d89c7c532d",

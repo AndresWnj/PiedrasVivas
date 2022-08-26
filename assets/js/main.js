@@ -31,8 +31,8 @@ $(document).ready(function() {
 var listener = new BroadcastChannel('listener');
 listener.onmessage = function (e) {
     var not = e.data;
-    console.log(not);
-    //console.log("mensaje del service worker " + not.data.Extras);
     console.log("mensaje del service worker " + e);
-
+    console.log(not);
+    $(".txtPasaje").html("<span>"+e.data.notification.title+"</span>");
+    $(".txtDescripcion").html("<span>"+e.data.notification.body+"</span>");
 };
