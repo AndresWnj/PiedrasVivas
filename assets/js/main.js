@@ -71,12 +71,12 @@ listener.onmessage = function (e) {
         console.log("mensaje del service worker ");
         console.log(e.data);
 
-        if(e.data.notification.title===""){
+        if(e.data.notification.title===" "){
             $(".txtDescripcion").css('text-align', "center");
             $(".txtPasaje").css('height', "0%");
             $(".txtDescripcion").css('height', "100%");
         }else{
-            $(".txtDescripcion").css('text-align', "justify");
+            $(".txtDescripcion").css('text-align', "left");
             $(".txtPasaje").css('height', "12%");
             $(".txtDescripcion").css('height', "88%");
         }
