@@ -70,6 +70,22 @@ listener.onmessage = function (e) {
         lastPasaje=newPasaje;
         console.log("mensaje del service worker ");
         console.log(e.data);
+
+        console.log(e.data.data.gcm.notification.justify);
+
+        if(e.data.data.gcm.notification.justify==="center"){
+            $(".txtDescripcion").css('text-align', "center");
+        }else{
+            $(".txtDescripcion").css('text-align', "justify");
+        }
+
+        if(e.data.notification.title===""){
+            $(".txtPasaje").css('height', "0%");
+            $(".txtDescripcion").css('height', "100%");
+        }else{
+            $(".txtPasaje").css('height', "12%");
+            $(".txtDescripcion").css('height', "88%");
+        }
         $(".txtPasaje").html("<span>"+e.data.notification.title+"</span>");
         $(".txtDescripcion").html("<span>"+e.data.notification.body+"</span>");
         $(".back").attr("src","./app/../assets/images/i"+getRandomInt(1, 5)+"_landscape.png");
