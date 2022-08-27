@@ -62,13 +62,17 @@ function getRandomInt(min, max){
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
+var lastPasaje="";
 var listener = new BroadcastChannel('listener');
 listener.onmessage = function (e) {
-    var not = e.data;
-    console.log("mensaje del service worker " + e);
-    console.log(not);
-    $(".txtPasaje").html("<span>"+e.data.notification.title+"</span>");
-    $(".txtDescripcion").html("<span>"+e.data.notification.body+"</span>");
-    $(".back").attr("src","./app/../assets/images/i"+getRandomInt(1, 5)+"_landscape.png");
+    var newPasaje=e.data.notification.title+e.data.notification.body;
+    if(newPasaje!==lastPasaje){
+        lastPasaje=newPasaje;
+        console.log("mensaje del service worker ");
+        console.log(e.data);
+        $(".txtPasaje").html("<span>"+e.data.notification.title+"</span>");
+        $(".txtDescripcion").html("<span>"+e.data.notification.body+"</span>");
+        $(".back").attr("src","./app/../assets/images/i"+getRandomInt(1, 5)+"_landscape.png");
+    }
 };
 
